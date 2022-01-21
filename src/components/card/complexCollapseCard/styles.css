@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  background: whitesmoke;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.cardContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+  overflow: hidden;
+  width: 345px;
+}
+.cardHeader {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.cardHeaderAvatar {
+  display: flex;
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}
+.cardHeaderTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1 1 auto;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: purple;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: white;
+}
+
+.titlePrimary {
+  font-weight: 400;
+  color: black;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+
+.titleSecondary {
+  font-weight: 400;
+  color: gray;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  display: block;
+}
+
+.avatcardHeaderAction {
+  display: flex;
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.cardMedia {
+  height: 194px;
+  background-image: url(https://picsum.photos/345/194);
+  width: 100%;
+}
+.cardContent {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  height: 112px;
+}
+.cardActions {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+}
+.cardActionsIconPrimary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  position: relative;
+  right: 140px;
+}
+.cardActionsIconSecondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  position: relative;
+  right: 110px;
+}
+.cardActionVertCollapse {
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  left: 140px;
+}
+.cardCollapse {
+  min-height: 0px;
+  display: none;
+  padding: 1rem;
+  height: auto;
+  transition-duration: 406ms;
+  overflow: visible;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

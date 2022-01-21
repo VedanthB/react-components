@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  background: gray;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.cardContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid black;
+  width: 345px;
+  height: 320px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.cardMedia {
+  background-image: url(https://picsum.photos/345/140);
+  width: 100%;
+  height: 140px;
+}
+
+.cardContent {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.cardLabel {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.cardBody {
+  font-weight: 400;
+  font-size: 0.875rem;
+  /* font-size: 14px; */
+  color: grey;
+}

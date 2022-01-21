@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  background: whitesmoke;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.cardContainer {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  overflow: hidden;
+  display: flex;
+  margin: auto;
+  width: 360px;
+  height: 154px;
+}
+
+.cardMedia {
+  background-image: url(https://mui.com/static/images/cards/live-from-space.jpg);
+  width: 140px;
+  height: 154px;
+}
+
+.cardContent {
+  width: 240px;
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContentHeader {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 80px;
+}
+
+.headerTextPrimary {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
+}
+
+.headerTextSecondaary {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+}
+
+.leftIconButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 2rem;
+  border: 0;
+  margin: 0.5rem;
+}
+
+.playIconButton {
+  width: 54px;
+  height: 54px;
+  border-radius: 2rem;
+  border: 0;
+  margin: 0.5rem;
+}
+
+.rightIconButton {
+  width: 40px;
+  margin: 5px;
+  height: 40px;
+  border-radius: 2rem;
+  border: 0;
+  margin: 0.5rem;
+}

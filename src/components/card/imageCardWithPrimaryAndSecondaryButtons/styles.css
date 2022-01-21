@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  background: whitesmoke;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.cardContainer {
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 345px;
+  height: 320px;
+}
+
+.cardMedia {
+  background-image: url(https://picsum.photos/345/140);
+  width: 100%;
+  height: 140px;
+}
+
+.cardContent {
+  width: 100%;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.cardLabel {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.cardBody {
+  font-weight: 400;
+  font-size: 0.875rem;
+  /* font-size: 14px; */
+  color: grey;
+}
+
+.cardActions {
+  width: 100%;
+  height: 48px;
+  padding: 1rem;
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+}
+
+.buttonPrimary {
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  padding: 4px 5px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: rgb(25, 118, 210);
+  margin-right: 15px;
+}
+
+.buttonPrimary:hover {
+  background: rgba(240, 236, 236, 0.603);
+}
+
+.buttonSecondary {
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  padding: 4px 5px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: rgb(25, 118, 210);
+}
+
+.buttonSecondary:hover {
+  background: rgba(240, 236, 236, 0.603);
+}
