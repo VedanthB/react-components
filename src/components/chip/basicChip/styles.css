@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  background: whitesmoke;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.chipContainer {
+  width: 85px;
+  height: 35px;
+  padding: 3px;
+  margin: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 13px;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.filled {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.outline {
+  background-color: transparent;
+  border: 1px solid rgb(189, 189, 189);
+}

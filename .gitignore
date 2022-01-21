@@ -6,3 +6,5 @@ dist/
 coverage/
 .vscode/
 .log
+.parcel-cache/
+parcel-cache
